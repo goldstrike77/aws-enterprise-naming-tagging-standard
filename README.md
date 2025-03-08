@@ -215,22 +215,30 @@ shown in examples section at the end of this document.
 AWS’ regions codes are unique; therefore, they will be abbreviated as
 follows:
 
-| Region         | Region Code |
-| -------------- | ----------- |
-| ap-northeast-1 | an1         |
-| ap-northeast-2 | an2         |
-| ap-south-1     | as1         |
-| ap-southeast-1 | ase1        |
-| ap-southeast-2 | ase2        |
-| ca-central-1   | cc1         |
-| eu-central-1   | ec1         |
-| eu-west-1      | euw1        |
-| eu-west-2      | euw2        |
-| sa-east-1      | se1         |
-| us-east-1      | ue1         |
-| us-east-2      | ue2         |
-| us-west-1      | uw1         |
-| us-west-2      | uw2         |
+| Region        | Location      | Partition    | Launched | AWS code         | A1      | A2      | B       |
+|---------------|---------------|--------------|----------|------------------|---------|---------|---------|
+| US East       | N. Virginia   | `aws`        | 2006     | `us-east-1`      | `usea1` | `use1`  | `usva`  |
+| US East       | Ohio          | `aws`        | 2016     | `us-east-2`      | `usea2` | `use2`  | `usoh`  |
+| US West       | N. California | `aws`        | 2011     | `us-west-1`      | `uswe1` | `usw1`  | `usca`  |
+| US West       | Oregon        | `aws`        | 2009     | `us-west-2`      | `uswe2` | `usw2`  | `usor`  |
+| GovCloud US   | Northwest     | `aws-us-gov` | 2011     | `us-gov-west-1`  | `ugwe2` | `usgw2` | `usgov` |
+| Canada        | Montreal      | `aws`        | 2016     | `ca-central-1`   | `cace1` | `cac1`  | `caqc`  |
+| EU            | Ireland       | `aws`        | 2007     | `eu-west-1`      | `euwe1` | `ew1`   | `ied`   |
+| EU            | London        | `aws`        | 2016     | `eu-west-2`      | `euwe2` | `ew2`   | `gblnd` |
+| EU            | Frankfurt     | `aws`        | 2014     | `eu-central-1`   | `euce1` | `ec1`   | `dehe`  |
+| Asia Pacific  | Singapore     | `aws`        | 2010     | `ap-southeast-1` | `apse1` | `apse1` | `sg`    |
+| Asia Pacific  | Sydney        | `aws`        | 2012     | `ap-southeast-2` | `apse2` | `apse2` | `aunsw` |
+| Asia Pacific  | Mumbai        | `aws`        | 2016     | `ap-south-1`     | `apso1` | `aps1`  | `inmh`  |
+| Asia Pacific  | Tokyo         | `aws`        | 2011     | `ap-northeast-1` | `apne1` | `apne1` | `jp13`  |
+| Asia Pacific  | Seoul         | `aws`        | 2016     | `ap-northeast-2` | `apne2` | `apne2` | `kr11`  |
+| South America | Saõ Paulo     | `aws`        | 2011     | `sa-east-1`      | `saea1` | `sae1`  | `brsp`  |
+| China         | Beijing       | `aws-cn`     | 2013     | `cn-north-1`     | `cnno1` | `cn1`   | `cn11`  |
+
+| Code | Description                         |
+|------|-------------------------------------|
+| A1   | Abbreviated AWS code (equal length) |
+| A2   | Abbreviated AWS code                |
+| B    | Concatenated ISO 3166 code          |
 
 ## AMI Versioning
 
