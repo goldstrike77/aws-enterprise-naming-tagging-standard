@@ -222,17 +222,23 @@ follows:
 | US West       | N. California | `aws`        | 2011     | `us-west-1`      | `uswe1` | `usw1`  | `usca`  |
 | US West       | Oregon        | `aws`        | 2009     | `us-west-2`      | `uswe2` | `usw2`  | `usor`  |
 | GovCloud US   | Northwest     | `aws-us-gov` | 2011     | `us-gov-west-1`  | `ugwe2` | `usgw2` | `usgov` |
+| GovCloud US   | East          | `aws-us-gov` | 2019     | `us-gov-east-1`  | `usge1` | `usge1` | `usgov` |
 | Canada        | Montreal      | `aws`        | 2016     | `ca-central-1`   | `cace1` | `cac1`  | `caqc`  |
 | EU            | Ireland       | `aws`        | 2007     | `eu-west-1`      | `euwe1` | `ew1`   | `ied`   |
 | EU            | London        | `aws`        | 2016     | `eu-west-2`      | `euwe2` | `ew2`   | `gblnd` |
+| EU            | Paris         | `aws`        | 2014     | `eu-west-3`      | `euwe3` | `ew3`   | `` |
+| EU            | Milan         | `aws`        | 2018     | `eu-south-1`      | `eus1`  | ``   | `` |
+| EU            | Stockholm     | `aws`        | 2018     | `eu-north-1`      | `eun1` | ``   | `` |
 | EU            | Frankfurt     | `aws`        | 2014     | `eu-central-1`   | `euce1` | `ec1`   | `dehe`  |
 | Asia Pacific  | Singapore     | `aws`        | 2010     | `ap-southeast-1` | `apse1` | `apse1` | `sg`    |
 | Asia Pacific  | Sydney        | `aws`        | 2012     | `ap-southeast-2` | `apse2` | `apse2` | `aunsw` |
 | Asia Pacific  | Mumbai        | `aws`        | 2016     | `ap-south-1`     | `apso1` | `aps1`  | `inmh`  |
 | Asia Pacific  | Tokyo         | `aws`        | 2011     | `ap-northeast-1` | `apne1` | `apne1` | `jp13`  |
 | Asia Pacific  | Seoul         | `aws`        | 2016     | `ap-northeast-2` | `apne2` | `apne2` | `kr11`  |
+| Asia Pacific  | Hong Kong     | `aws`        | 2019     | `ap-east-1`      | `ape1`  | `ape1`  | ``  |
 | South America | Saõ Paulo     | `aws`        | 2011     | `sa-east-1`      | `saea1` | `sae1`  | `brsp`  |
 | China         | Beijing       | `aws-cn`     | 2013     | `cn-north-1`     | `cnno1` | `cn1`   | `cn11`  |
+| Africa        | Cape Town     | `aws`        | 2020     | `af-south-1`     | `afs1`  | `afs1`  | ``  |
 
 | Code | Description                         |
 |------|-------------------------------------|
